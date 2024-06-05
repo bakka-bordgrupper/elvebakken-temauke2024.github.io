@@ -10,26 +10,37 @@ body
     font-size: 1.5vw;
 }
 
-.top_container > .bar
+.image_container > .bar
 {
     height: 5vw;
     background-color: slateblue;
-    opacity:0.9;
-    margin-top: -5vw;
+    opacity:0.8;
 }
 
-.top_container
+.image_container
 {
     height:25vw;
     text-align: center;
 }
 
-.top_container > img
+.image_container > img
 {
     height:auto;
     width:100%;
     left: 50%;
     margin: auto;
+}
+
+#subtitle
+{
+    font-size: 3vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:-37vw;
+    padding: 20vw;
+    color:white;
+    margin-bottom:0vw;
+    text-shadow: 0px 0px 1vw navy;
 }
 
 #title
@@ -43,6 +54,8 @@ body
     margin-bottom:0vw;
     text-shadow: 0px 0px 1vw navy;
 }
+
+
 
 .hidden
 {
@@ -88,3 +101,35 @@ header > a > img
     height:100%;
 }
 
+
+.flag-text-container
+{
+    display:flex;
+    padding:2vw;
+    padding-left:8vw;
+    padding-right:8vw;
+}
+
+.flag-text-container > img
+{
+    display:flexbox;
+    width:15vw;
+    height:10vw;
+}
+
+.flag-text-container > p
+{
+    display:flexbox;
+}
+
+.source-container
+{
+    padding:8vw;
+    margin-top:-12vw;
+    padding-bottom:4vw;
+}
+
+.source-container > li
+{
+    padding-top:2vw;
+}
