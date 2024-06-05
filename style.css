@@ -12,8 +12,18 @@ body
 .normal_text
 {
     margin-left:2vw;
-    font-size: 1.4vw;
+    font-size: 1.3vw;
     line-height: 2.2;
+}
+
+.introparagraph
+{
+    margin-left:2vw;
+    font-size: 1.3vw;
+    line-height: 2.2;
+    margin-top:10vw;
+    padding-left:6vw;
+    padding-right:6vw;
 }
 
 .image_container > .bar
@@ -111,21 +121,23 @@ header > a > img
 .flag-text-container
 {
     display:flex;
-    padding:2vw;
+    padding:4vw;
     padding-left:8vw;
     padding-right:8vw;
 }
 
 .flag-text-container > img
 {
-    display:flexbox;
+    display:block;
     width:15vw;
     height:10vw;
 }
 
 .flag-text-container > p
 {
-    display:flexbox;
+    display:block;
+    width:65vw;
+    margin-top:0;
 }
 
 .source-container
