@@ -4,11 +4,17 @@ body
     font-family: 'comic sans ms';
 }
 
+.normal_text
+{
+    margin-left:2vw;
+    font-size: 1.5vw;
+}
+
 .top_container > .bar
 {
     height: 5vw;
     background-color: slateblue;
-    opacity:0.8;
+    opacity:0.9;
     margin-top: -5vw;
 }
 
@@ -21,14 +27,33 @@ body
 .top_container > img
 {
     height:auto;
-    width:100vw;
+    width:100%;
     left: 50%;
     margin: auto;
 }
 
-.top_container > h1
+#title
 {
-    bottom:-50vw;
+    font-size: 6vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:-45vw;
+    padding: 20vw;
+    color:white;
+    margin-bottom:0vw;
+    text-shadow: 0px 0px 1vw navy;
+}
+
+.hidden
+{
+    opacity: 0;
+    transform: translateY(5vw);
+    transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+}
+.visible
+{
+    opacity: 1;
+    transform: translateY(0);
 }
 
 header
@@ -62,3 +87,4 @@ header > a > img
     position:absolute;
     height:100%;
 }
+
