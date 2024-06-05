@@ -1,3 +1,4 @@
+<html>
 <head>
     <title>Hva er pride?</title>
     <meta charset="UTF-8">
@@ -10,21 +11,27 @@
 
 <body>
     <header>
-        
         <div style="width:50%;background-color:slateblue;height:100%;position:absolute;margin:0;">
             <p>En nettide laget av Felix Liang Ly og Nikolai Bleken Müller 1STB</p>
         </div>
         <img src="/images/transition.png" style="left:50%;">
         <a href="https://elvebakken.vgs.no/"><img src="/images/elvebakken_logo.png" style="right:1em;"></a>
     </header>
+
+    <!--intro-->
     <div class = "image_container">
         <img src="/images/parade.png">
         
         <div class= "bar" style="margin-top:-5vw;"></div>
         <h1 id = "title" class="hidden">Hva er pride?</h1>
     </div>
-    <div style="display:flex;padding:8vw;margin-top:20vw;">
-        <img src="/images/vertical_rainbow.png" style="display:flexbox;width:15vw;height:40vw;">
+    <div id="intro">
+        <ul style="display:flexbox;" id="contenttable">
+            <li><a href="#intro" id="first_content">Hva er pride?</a></li>
+            <li><a href="#legning" id="second_content">Seksuell legning</a></li>
+            <li><a href="#identitet" id="tertiary_content">Kjønnsidentitet</a></li>
+            <li><a href="#kilder" id="quad_content">Referanser</a></li>
+        </ul>
         <p class = "normal_text" style="display:flexbox;">Da er det juni igjen &ndash; pridemåneden!
             Hver juni feires pride med bannere og tog og mye mer.
             Ord som </p>
@@ -32,7 +39,7 @@
 
 
     <!--legning-->
-    <div class = "image_container">
+    <div class = "image_container" id="legning">
         <div class = "bar"></div>
         <img src="/images/rainbow.png">
         <div class= "bar"></div>
@@ -58,7 +65,7 @@
 
 
      <!--identitet-->
-     <div class = "image_container">
+     <div class = "image_container" id="identitet">
         <div class = "bar"></div>
         <img src="/images/rainbow.png">
         <div class= "bar"></div>
@@ -84,7 +91,7 @@
 
 
     <!--kilder-->
-    <div class = "image_container">
+    <div class = "image_container" id="kilder">
         <div class = "bar" style="margin-bottom:-5vw;"></div>
         <img src="/images/books.png">
         <div class= "bar" style="margin-top:-5vw;"></div>
@@ -97,3 +104,4 @@
         <li class = "normal_text">b?</li>
     </ul>
 </body>
+</html>

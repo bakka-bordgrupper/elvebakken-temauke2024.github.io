@@ -1,3 +1,8 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
 body
 {
     margin: 0;
@@ -132,4 +137,81 @@ header > a > img
 .source-container > li
 {
     padding-top:2vw;
+}
+
+#contenttable
+{
+    width:15vw;
+    position:relative;
+}
+
+#contenttable
+{
+    display:block;
+    margin-bottom:4vw;
+    list-style-type: none;
+    height:26vw;
+    background-color: slateblue;
+    padding:0;
+    border-radius: 0.6vw;
+}
+
+#contenttable > li
+{
+    margin-bottom:2vw;
+    width:100%;
+}
+
+#contenttable > li > a
+{
+
+    padding: 2vw;
+    height:auto;
+    display:block;
+    transition: background-color 0.2s ease;
+    border-radius: 0.4vw;
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: 1.2vw;
+}
+
+#contenttable > li > a:active
+{
+    color: navy;
+}
+
+#contenttable > li > a:hover
+{
+    color: whitesmoke;
+    background-color: darkslateblue;
+}
+
+#first_content
+{
+    background-color:salmon;
+}
+#second_content
+{
+    background-color:goldenrod;
+}
+#tertiary_content
+{
+    background-color:mediumseagreen;
+}
+#quad_content
+{
+    background-color:cornflowerblue;
+}
+
+a
+{
+    font-size:1vw;
+}
+
+#intro
+{
+    display:flex;
+    padding:8vw;
+    margin-top:
+    18vw;
 }
